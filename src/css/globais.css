@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+html{
+    color: var(--cor-padrao);
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--cor01);
+    font-family: var(--font-fredoka);
+    
+}
+
+.conteiner{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.alinhar-itens-no-centro{
+    align-items: center;
+}

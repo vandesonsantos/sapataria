@@ -3,19 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Loja de Calçados</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Istok+Web:wght@400;700&family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/globais.css">
+  <link rel="stylesheet" href="src/css/variaveis.css">
+  <link rel="stylesheet" href="src/css/secoes/header.css">
 </head>
 <body>
+  <header class="header">
+    <div class="conteiner">
 
-  <header>
-    <h1>Loja de Calçados</h1>
-  </header>
+        <div class="display-flex justify-content-between alinhar-itens-no-centro">
+            <a href="#">
+               <h1 class="logo">Logo</h1>
+            </a>
+
+            <nav>
+                <input id="menu-hamburguer" type="checkbox" />
+                <label for="menu-hamburguer">
+                   <div class="menu">
+                      <span class="hamburguer"></span>
+                   </div>
+                </label>
+
+                <ul>
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#produtos">Produtos</a></li>
+                   <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
 
   <main>
     <div class="product">
