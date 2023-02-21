@@ -8,6 +8,7 @@ Tênis, Bota, Sapatilha, Sandália
 - Marcação HTML5 semântica
 - Propriedades personalizadas CSS
 - Flexbox
+-  Media Query 
 - Java Script
 
 
