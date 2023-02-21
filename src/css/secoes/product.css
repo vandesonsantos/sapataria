@@ -1,24 +1,23 @@
-.product-tenis{
-    justify-content: center;
+.product{
     margin-top: 30px;
     padding: 20px 20px;
 }
 
-.img-tenis{
+.img-product{
     background-color: rgba(0, 0, 0, 0.164);
     width: 400px;
     padding: 20px;
     border-radius: 10px 0px 0px 10px;
 }
 
-.informacoes{
+.info-product{
     background-color: #ffffff;
     width: 400px;
     padding: 41px;
     border-radius: 0px 10px 10px 0px;
 }
 
-.informacoes h3{
+.info-product h3{
     font-family: var(--font-montserrat);
     color: var(--cor-padrao);
     text-transform: uppercase;
@@ -28,29 +27,29 @@
     margin-bottom: 10px;
 }
 
-.informacoes h2{
+.info-product h2{
     font-family: var(--font-fraunces);
     margin-bottom: 20px;
 }
 
-.informacoes p{
+.info-product p{
     margin-bottom: 30px;
     color: var(--cor-padrao);
 }
 
-.valor{
+.valor-product{
     margin-bottom: 30px;
     font-family: var(--font-fraunces);
     display: flex;
     align-items: center;
 }
 
-.valor span:first-child{
+.valor-product span:first-child{
     font-size: 1.6rem;
     color: var(--cor-padrao);
 }
 
-.valor span:last-child{
+.valor-product span:last-child{
     margin-left: 20px;
     text-decoration: line-through;
     font-size: 0.9rem;
@@ -103,7 +102,7 @@
         border-radius: 10px 10px 0px 0px;
     }
 
-    .informacoes{
+    .info-product{
         border-radius: 0px 0px 10px 10px;
     }
 }
