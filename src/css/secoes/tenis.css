@@ -1,0 +1,109 @@
+.product-tenis{
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+
+.img-tenis{
+    background-color: rgba(0, 0, 0, 0.164);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.informacoes{
+    background-color: #ffffff;
+    width: 400px;
+    padding: 41px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.informacoes h3{
+    font-family: var(--font-montserrat);
+    color: var(--cor-padrao);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.informacoes h2{
+    font-family: var(--font-fraunces);
+    margin-bottom: 20px;
+}
+
+.informacoes p{
+    margin-bottom: 30px;
+    color: var(--cor-padrao);
+}
+
+.valor{
+    margin-bottom: 30px;
+    font-family: var(--font-fraunces);
+    display: flex;
+    align-items: center;
+}
+
+.valor span:first-child{
+    font-size: 1.6rem;
+    color: var(--cor-padrao);
+}
+
+.valor span:last-child{
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    color: var(--cor-padrao);
+}
+
+.add-car{
+    display: block;
+    margin: auto;
+    background-color: var(--cor03);
+    color: #ffffff;
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.add-car:hover{
+    background-color: var(--cor02);
+    color: var(--cor01);
+    border: 1px solid var(--cor-padrao);
+}
+
+.show-details{
+    display: block;
+    margin: auto;
+    background-color: var(--cor03);
+    color: #ffffff;
+    font-family: var(--font-montserrat);
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: -10px;
+}
+
+.show-details:hover{
+    background-color: var(--cor02);
+    color: var(--cor01);
+    border: 1px solid var(--cor-padrao);
+}
+
+@media(max-width: 900px){
+    .img-tenis{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .informacoes{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
