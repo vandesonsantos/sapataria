@@ -1,23 +1,24 @@
 .header{
-    background-color: var(--cor02);
     padding: 30px 15px;
     box-shadow: 3px 3px 3px #00000042;
 }
 
 .header .logo{
-    color: var(--cor03);
+    color: var(--cor02);
     font-family: var(--font-fredoka);
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    line-height: 55px;
+    font-weight: 500;
+    width: 100px;
+    height: 55px;
+    border-radius: 30px;
+    line-height: 45px;
     text-align: center;
     text-decoration: underline;
     transition: 0.2s;
 }
 
 .header a:hover .logo{
-    color: var(--cor03);
+    color: var(--cor-padrao);
+    border: 2px solid var(--cor-padrao);
 }
 
 .header nav ul{
@@ -25,7 +26,7 @@
 }
 
 .header nav li a{
-    color: var(--cor03);
+    color: var(--cor02);
     font-size: 1.2rem;
     font-weight: 600;
     padding: 10px 20px;
@@ -42,6 +43,7 @@
 
 .header .menu{
     display: none;
+    
     width: 60px;
     height: 60px;
     align-self: flex-end;
@@ -54,7 +56,7 @@
 }
 
 .header .hamburguer{
-    background-color: var(--cor03);
+    background-color: var(--cor02);
     position: relative;
     display: block;
     width: 30px;
@@ -65,7 +67,7 @@
 }
 
 .header .hamburguer:before, .header .hamburguer:after{
-    background-color: var(--cor03);
+    background-color: var(--cor02);
     content: '';
     display: block;
     width: 100%;
@@ -118,14 +120,14 @@
 
     .header nav ul{
         display: none;
-        background-color: var(--cor-fundo-escuro);
+        background-color: #27465975;
         padding: 20px;
         border-radius: 10px;
+        border: 1px solid #00000023;
     }
 
     .header nav li a{
         display: block;
-        color: var(--cor-textos);
         text-align: center;
         padding: 20px;
     }
