@@ -25,7 +25,8 @@
                 <label for="menu-hamburguer">
                    <div class="menu">
                       <span class="hamburguer"></span>
-                   </div>
+                  </div>
+
                 </label>
 
                 <ul>
@@ -56,7 +57,19 @@
           </div>
 
           <button class="add-car">Adicionar ao carrinho</button>
-          <button class="show-details">Detalhes</button>
+          <button class="show-details" 
+          onclick="showDetails(this)"
+          >
+          	Detalhes</button>
+          <div class="details">
+    <h4>Detalhes do produto:</h4>
+    <ul>
+      <li><strong>Descrição:</strong> Conforto versátil com amortecimento flexível. Um brinde aos novos começos entre você e as calçadas.</li>
+      <li><strong>Cores:</strong> Preto, branco, azul e cinza</li>
+      <li><strong>Tamanhos:</strong> 37 ao 44</li>
+      <li><strong>Formas de pagamento:</strong> Cartão de crédito, débito e PIX</li>
+    </ul>
+ 	 </div>
         </div>
       </div>
     </section>
@@ -78,7 +91,19 @@
           </div>
 
           <button class="add-car">Adicionar ao carrinho</button>
-          <button class="show-details">Detalhes</button>
+          <button class="show-details"
+          onclick="showDetails(this)"
+          >
+          	Detalhes</button>
+          <div class="details">
+    <h4>Detalhes do produto:</h4>
+    <ul>
+      <li><strong>Descrição:</strong> Conforto versátil com amortecimento flexível. Um brinde aos novos começos entre você e as calçadas.</li>
+      <li><strong>Cores:</strong> Preto, branco, azul e cinza</li>
+      <li><strong>Tamanhos:</strong> 37 ao 44</li>
+      <li><strong>Formas de pagamento:</strong> Cartão de crédito, débito e PIX</li>
+    </ul>
+  	</div>
         </div>
       </div>
     </section>
@@ -100,7 +125,19 @@
           </div>
 
           <button class="add-car">Adicionar ao carrinho</button>
-          <button class="show-details">Detalhes</button>
+          <button class="show-details"
+          onclick="showDetails(this)"
+          >
+          	Detalhes</button>
+          <div class="details">
+    <h4>Detalhes do produto:</h4>
+    <ul>
+      <li><strong>Descrição:</strong> Conforto versátil com amortecimento flexível. Um brinde aos novos começos entre você e as calçadas.</li>
+      <li><strong>Cores:</strong> Preto, branco, azul e cinza</li>
+      <li><strong>Tamanhos:</strong> 37 ao 44</li>
+      <li><strong>Formas de pagamento:</strong> Cartão de crédito, débito e PIX</li>
+    </ul>
+  </div>
         </div>
       </div>
     </section>
@@ -121,8 +158,21 @@
             <span>R$164,90</span>
           </div>
 
-          <button class="add-car">Adicionar ao carrinho</button>
-          <button class="show-details">Detalhes</button>
+          <button class="add-car"
+          >Adicionar ao carrinho</button>
+          <button class="show-details"
+          onclick="showDetails(this)"
+          >
+          	Detalhes</button>
+          <div class="details">
+    <h4>Detalhes do produto:</h4>
+    <ul>
+      <li><strong>Descrição:</strong> Conforto versátil com amortecimento flexível. Um brinde aos novos começos entre você e as calçadas.</li>
+      <li><strong>Cores:</strong> Preto, branco, azul e cinza</li>
+      <li><strong>Tamanhos:</strong> 37 ao 44</li>
+      <li><strong>Formas de pagamento:</strong> Cartão de crédito, débito e PIX</li>
+    </ul>
+  </div>
         </div>
       </div>
     </section>
@@ -130,14 +180,11 @@
 
   <div class="cart">
     <h2>Carrinho</h2>
-    <button class="clear-cart">Limpar</button>
-    <div class="cart-items"></div>
-  </div>
+    <div id="quantidade-carrinho"></div>
 
-  <div class="product-details">
-    
+  <button id="remove-car">Limpar</button>
   </div>
   
-  <script src="/script/script.js"></script>
+  <script src="src/script/script.js"></script>
 </body>
 </html>
