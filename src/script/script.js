@@ -47,7 +47,7 @@ let quantidadeProdutos = 0;
 
 function exibirQuantidadeCarrinho() {
   const quantidadeCarrinho = document.getElementById("quantidade-carrinho");
-  quantidadeCarrinho.textContent = `Você adicionou ${quantidadeProdutos} produto(s) ao carrinho.`;
+  quantidadeCarrinho.textContent = `${quantidadeProdutos}`;
 }
 
 addCarButtons.forEach(button => {
